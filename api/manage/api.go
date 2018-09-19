@@ -108,6 +108,7 @@ func (m *Manage) CountAPI(c echo.Context) error {
 			Message: g.DatabaseE,
 		})
 	}
+	defer rows.Close()
 
 	var total int
 	rows.Next()
@@ -253,6 +254,7 @@ func (m *Manage) DeleteAPI(c echo.Context) error {
 			Message: g.DatabaseE,
 		})
 	}
+	defer rows.Close()
 
 	if !rows.Next() {
 		return c.JSON(http.StatusNotFound, g.Result{

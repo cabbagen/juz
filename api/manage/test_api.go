@@ -38,6 +38,7 @@ func (m *Manage) APIQueryParam(c echo.Context) error {
 			Message: g.DatabaseE,
 		})
 	}
+	defer rows.Close()
 
 	var params string
 	rows.Next()

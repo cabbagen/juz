@@ -63,6 +63,7 @@ func Count(c echo.Context) error {
 			Message: g.DatabaseE,
 		})
 	}
+	defer rows.Close()
 
 	var total int
 	rows.Next()

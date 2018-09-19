@@ -321,6 +321,12 @@ func canOperate(c echo.Context, service string) bool {
 		// 验证是否是管理员
 		query = fmt.Sprintf("select privilege from privilege where user_id='%s' and service='%s'", userID, service)
 		rows, err := g.DB.Query(query)
+		if err != nil {
+			g.L.Info("access database error", zap.Error(err), zap.String("query", query))
+			return false
+		}
+		defer rows.Close()
+
 		if !rows.Next() {
 			// 不存在该用户的权限
 			return false
