@@ -6,6 +6,9 @@ Juz is a new api-gateway designed for enterprise,mainly focus on performance,sec
 - <a href="ReadmeCn.md">中文Readme</a>
 
 
+### Project status
+Beta version: 0.5.0, it is not recommanded using juz production, we will do more tests to verify.
+
 When refered to traditional api-gateway, there are some problems:
 - Manageability
 - Performance
