@@ -18,7 +18,10 @@ When refered to traditional api-gateway, there are some problems:
 
 So, we developed a new one which has been used in our enterprise for two years,  and it got widely praised. Now, you can also use it in your enviroment and enjoy its convenience.
 
-![Juz flow](https://upload-images.jianshu.io/upload_images/8245841-09ab7c05653b1bfd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Install
+---
+Please see http://mafanr.com/lab/docs/juz/install for more info
+
 
 Features
 --- 
@@ -54,3 +57,8 @@ Features
 - Metrics export to Prometheus
 - Jager based distribute tracing
 - Application health checking
+
+
+Juz flow
+--- 
+![Juz flow](https://upload-images.jianshu.io/upload_images/8245841-09ab7c05653b1bfd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
