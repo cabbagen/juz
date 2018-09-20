@@ -11,6 +11,16 @@ juz全称是桔子网关，是我们为了解决企业的痛点，专门研发�
 
 有鉴于此，我们重新开发了一套企业级别的网关，并且已经在内部使用2年之久，受到广泛好评，因此特地开源出来，让大家都能享受到优秀的API网关带来的便利性。
 
+### 项目状态
+Beta version: 0.5.0, 当前还不推荐在生产使用(虽然已经可以使用)，我们还需做更多的测试
+
+### 安装
+访问http://mafanr.com/lab/docs/juz/install获取更多信息
+
+### 文档
+http://mafanr.com/lab/docs/juz
+
+
 ![Juz简图](https://upload-images.jianshu.io/upload_images/8245841-09ab7c05653b1bfd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 桔子具有以下功能和特性(部分还在开发中)
@@ -43,3 +53,4 @@ juz全称是桔子网关，是我们为了解决企业的痛点，专门研发�
 - 基于Jaeger的全链路监控
 - 全链路日志
 - 应用健康检查
+

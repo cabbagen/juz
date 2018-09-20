@@ -19,8 +19,10 @@ When refered to traditional api-gateway, there are some problems:
 So, we developed a new one which has been used in our enterprise for two years,  and it got widely praised. Now, you can also use it in your enviroment and enjoy its convenience.
 
 ### Install
-Please see http://mafanr.com/lab/docs/juz/install for more info
+English doc  is comming soon,before 2018.9.23
 
+### Docs
+English doc  is comming soon,before 2018.9.23
 
 ### Features
 
