@@ -21,6 +21,7 @@ func (m *Manage) Start() {
 	g.ETCD.Register(g.APP_JUZ_MANAGE, misc.Conf.Etcd.Addrs, misc.Conf.Manage.Port)
 
 	e := echo.New()
+
 	//api管理
 	e.POST("/manage/api/query", m.QueryAPI, auth)
 	e.POST("/manage/api/count", m.CountAPI, auth)
