@@ -22,7 +22,7 @@ So, we developed a new one which has been used in our enterprise for two years, 
 Please see http://mafanr.com/lab/docs/juz/install for more info
 
 
-## Features
+### Features
 
 1. Request Proxy
 - HTTP and Websocket supported
