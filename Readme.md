@@ -7,8 +7,8 @@ Juz is a new api-gateway designed for enterprise,mainly focus on performance,sec
 
 
 When refered to traditional api-gateway, there are some problems:
-- Bad manageability
-- Performance not good
+- Manageability
+- Performance
 - Features lacking
 - Need more on authority management
 - Monitoring
