@@ -1,45 +1,53 @@
 # Juz
 
-juz全称是桔子网关，是我们为了解决企业的痛点，专门研发的一套完全开源的网关。
+Juz is a new api-gateway designed for enterprise,mainly focus on performance,security and extensibility, juz is totally opensorced, and no premium edition.
 
-对于传统的开源网关，存在几个主要的问题：
-- 可配置性和可管理性不好
-- 性能不够高
-- 功能不够丰富
-- 没有完善的管理权限控制
-- 监控缺失
+- Homepage: http://juz.io
+- <a href="ReadmeCn.md">中文Readme</a>
 
-有鉴于此，我们重新开发了一套企业级别的网关，并且已经在内部使用2年之久，受到广泛好评，因此特地开源出来，让大家都能享受到优秀的API网关带来的便利性。
 
-![Juz简图](https://upload-images.jianshu.io/upload_images/8245841-09ab7c05653b1bfd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+When refered to traditional api-gateway, there are some problems:
+- Bad manageability
+- Performance not good
+- Features lacking
+- Need more on authority management
+- Monitoring
 
-桔子具有以下功能和特性(部分还在开发中)
-1. 流量代理
-- 支持HTTP1.1/HTTP2/HTTPS/Websocket
-- 请求调度
-- 版本控制
-- 鉴权、验签 
-- 黑白名单
-- 限速、限额 
-- 熔断 
-- 请求重试
-- 结果缓存
-- 流量路由(金丝雀)
+So, we developed a new one which has been used in our enterprise for two years,  and it got widely praised. Now, you can also use it in your enviroment and enjoy its convenience.
 
-2. 应用防火墙WAP
-- 拦截Web入侵：SQL注入/命令注入/XSS/Webshell上传等等
-- 应用层DDOS防范
-- 应对CC攻击和刷量场景
-- 联动检测
+![Juz flow](https://upload-images.jianshu.io/upload_images/8245841-09ab7c05653b1bfd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-3. 数据分析
-- 访问日志
-- 数据统计
-- 开发数据接口
-- 流量深度分析
+Features
+--- 
+1. Request Proxy
+- HTTP and Websocket supported
+- Versioning control
+- Authentication, signature verification
+- Black/White List
+- Traffic rate limiting
+- Hystrix like 
+- Fail and Retry
+- Caching
+- Canary test
 
-4. 监控告警
-- 流量异常监控
-- 基于Jaeger的全链路监控
-- 全链路日志
-- 应用健康检查
+2. Advanced
+- Debug mode and logs
+- Beautiful UI
+- Online managing
+- Param verify with regexp
+- Multi access mode
+
+2. Application Firewall: WAP
+- SQL injection/Command injection/XSS/Webshell etd
+- DDOS for application layer
+- CC attack
+
+3. Logs
+- Access log
+- Audit log
+- Log analysis
+
+4. Monitoring
+- Metrics export to Prometheus
+- Jager based distribute tracing
+- Application health checking
