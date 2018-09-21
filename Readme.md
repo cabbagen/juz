@@ -1,4 +1,4 @@
-# Juz
+# Juz[dʒu:z]
 
 Juz is a new api-gateway designed for enterprise,mainly focus on performance,security and extensibility, juz is totally opensorced, and no premium edition.
 
