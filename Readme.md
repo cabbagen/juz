@@ -4,7 +4,14 @@ Juz is a new api-gateway designed for enterprise,mainly focus on performance,sec
 
 - Homepage: http://juz.io
 - <a href="ReadmeCn.md">中文Readme</a>
-![](https://sourcerer.io/fame/sunface/mafanr/juz/images/0)](https://sourcerer.io/fame/sunface/mafanr/juz/links/0)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/0)](https://sourcerer.io/fame/sunface/mafanr/juz/links/0)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/1)](https://sourcerer.io/fame/sunface/mafanr/juz/links/1)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/2)](https://sourcerer.io/fame/sunface/mafanr/juz/links/2)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/3)](https://sourcerer.io/fame/sunface/mafanr/juz/links/3)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/4)](https://sourcerer.io/fame/sunface/mafanr/juz/links/4)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/5)](https://sourcerer.io/fame/sunface/mafanr/juz/links/5)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/6)](https://sourcerer.io/fame/sunface/mafanr/juz/links/6)
+[![](https://sourcerer.io/fame/sunface/mafanr/juz/images/7)](https://sourcerer.io/fame/sunface/mafanr/juz/links/7)
 
 ### Project status
 Beta version: 0.5.0, it is not recommanded using juz production, we will do more tests to verify.
